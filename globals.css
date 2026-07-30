@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --ink: #191f1e;
+  --parchment: #fbf8f1;
+  --teal: #14787a;
+  --gold: #d9a227;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-parchment text-ink font-body antialiased;
+}
+
+/* ------------------------------------------------------------------ */
+/* Signature: the watchman's wall — a battlement (crenellated) border  */
+/* drawn from the brick wall in the WCCRM crest (Ezek. 33:1–7).        */
+/* ------------------------------------------------------------------ */
+.wall {
+  height: 14px;
+  background-image: linear-gradient(
+    to right,
+    var(--gold) 0 24px,
+    transparent 24px 48px
+  );
+  background-size: 48px 8px;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  border-bottom: 4px solid var(--gold);
+}
+
+.wall--teal {
+  background-image: linear-gradient(
+    to right,
+    var(--teal) 0 24px,
+    transparent 24px 48px
+  );
+  border-bottom-color: var(--teal);
+}
+
+/* Eyebrow label */
+.eyebrow {
+  @apply text-xs font-semibold uppercase tracking-[0.22em] text-teal;
+}
+
+/* Photo placeholder blocks — swap for real photos in /public/images */
+.photo {
+  @apply relative flex items-end overflow-hidden rounded-sm bg-teal-tint;
+  background-image:
+    radial-gradient(circle at 75% 20%, rgba(217, 162, 39, 0.25), transparent 55%),
+    linear-gradient(160deg, #dcebe9 0%, #b9d6d3 60%, #8fbdb9 100%);
+}
+
+.photo > span {
+  @apply m-3 rounded-sm bg-ink/70 px-2 py-1 text-[11px] uppercase tracking-widest text-parchment;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    animation: rise 0.7s ease-out both;
+  }
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
