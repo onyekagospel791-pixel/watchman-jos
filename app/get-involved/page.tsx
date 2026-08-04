@@ -51,8 +51,8 @@ export default function GetInvolved() {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="photo aspect-[4/3]">
             <Image
-              src="/images/sunday-service.jpg"
-              alt="Preaching during a Sunday worship service at Watchman Jos"
+              src="/images/pastor-amos-youngo.jpg"
+              alt="Pastor Amos Youngo preaching during a Sunday worship service at Watchman Jos"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
               className="object-cover"

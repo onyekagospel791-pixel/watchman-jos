@@ -1,14 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 :root {
   --font-display: "Fraunces", Georgia, serif;
   --font-body: "Inter", system-ui, sans-serif;
   --ink: #191f1e;
-  --parchment: #fbf8f1;
-  --teal: #14787a;
-  --gold: #d9a227;
+  --parchment: white;
+  --teal: #1dd5d8;
+  --gold: #8fd9f0;
 }
 
 html {
@@ -16,7 +16,11 @@ html {
 }
 
 body {
-  @apply bg-parchment text-ink font-body antialiased;
+  background-color: var(--parchment);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* ------------------------------------------------------------------ */
@@ -47,19 +51,35 @@ body {
 
 /* Eyebrow label */
 .eyebrow {
-  @apply text-xs font-semibold uppercase tracking-[0.22em] text-teal;
+  font-size: 0.75rem; /* text-xs */
+  font-weight: 600; /* font-semibold */
+  text-transform: uppercase;
+  letter-spacing: 0.22em; /* tracking-[0.22em] */
+  color: var(--teal);
 }
 
 /* Photo placeholder blocks — swap for real photos in /public/images */
 .photo {
-  @apply relative flex items-end overflow-hidden rounded-sm bg-teal-tint;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 0.125rem; /* rounded-sm */
+  background-color: rgba(29, 213, 216, 0.06); /* subtle teal tint fallback */
   background-image:
     radial-gradient(circle at 75% 20%, rgba(217, 162, 39, 0.25), transparent 55%),
     linear-gradient(160deg, #dcebe9 0%, #b9d6d3 60%, #8fbdb9 100%);
 }
 
 .photo > span {
-  @apply m-3 rounded-sm bg-ink/70 px-2 py-1 text-[11px] uppercase tracking-widest text-parchment;
+  margin: 0.75rem; /* m-3 */
+  border-radius: 0.125rem; /* rounded-sm */
+  background-color: rgba(25, 31, 30, 0.7); /* bg-ink/70 -> --ink is #191f1e */
+  padding: 0.25rem 0.5rem; /* py-1 px-2 */
+  font-size: 11px; /* text-[11px] */
+  text-transform: uppercase; /* uppercase */
+  letter-spacing: 0.12em; /* tracking-widest */
+  color: var(--parchment); /* text-parchment */
 }
 
 @media (prefers-reduced-motion: no-preference) {

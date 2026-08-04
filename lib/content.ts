@@ -9,13 +9,13 @@ export const site = {
   tagline: "A church empowered by the Word",
   intro:
     "At Watchman Church, we invite you to experience the transformative power of God's Word and Spirit.",
-  scripture: "Ezek. 33:1–7 · Isa. 62:6–7",
+  scripture: "Ezek. 33:1–7 · Isa. 59:5–6",
   address: "Watchman Fellowship Center, Busa Buji Road, Jos",
   email: "watchmanjos@gmail.com",
   youtube: "https://www.youtube.com/@WatchmanJos",
   serviceTimes: [
     { day: "Sunday Light", time: "8:00 AM" },
-    { day: "Tuesday Bible Study", time: "7:00 AM" },
+    { day: "Tuesday Bible Study", time: "5:00 PM" },
     { day: "Thursday Charismatic Hour", time: "5:00 PM" },
   ],
 };
@@ -146,21 +146,25 @@ export const leaders = [
   {
     name: "Pastor Amos Youngo",
     role: "Diocesan Pastor",
+    image:"/images/pastor-amos-youngo.jpg",
     body: "A man of excellence and wisdom, he has led Watchman Jos with a hybrid hand — instilling excellence and perfection across the body, not only with compelling words but with love and care.",
   },
   {
     name: "Pastor Nnaji",
     role: "Parish Pastor",
+    image: "/images/pastor-nnaji.jpg",
     body: "A passionate and inspiring leader whose words have shaped many youths — teaching a Christian life of not just spirituality but excellence in all areas of life.",
   },
   {
     name: "Pastor Linus Orduh",
     role: "Youth Pastor",
+    image: "/images/pastor-linus.jpg",
     body: "A passionate and inspiring leader whose words continue to shape young people, teaching spirituality and excellence in every area of life.",
   },
   {
     name: "Mistress Favour Agba",
     role: "Diocesan Choir Mistress",
+    image: "/images/mistress-favour.jpg",
     body: "A talented and passionate music director whose zeal for music has been tested over time — leading the music department as diocesan leader with the spirit of leadership.",
   },
 ];
@@ -297,7 +301,7 @@ export const sermons = [
     title: "The Old Fashioned Way",
     speaker: "Pastor Amos Youngo",
     date: "March 2026",
-    scripture: "Jeremiah 6:16–19",
+    scripture: "Jeremiah 6:16",
     body: "The old fashioned way of living — a call to return to the foundational principles of the faith.",
   },
 ];

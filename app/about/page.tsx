@@ -71,16 +71,37 @@ export default function About() {
         <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {leaders.map((l) => (
             <article key={l.name}>
-              <div className="photo aspect-[3/4]">
+              <div className="photo aspect-[3/4] relative overflow-hidden">
+                <img
+                  src={l.image || "/images/pastor-amos-youngo.jpg"}
+                  alt={`Photo — ${l.name}`}
+                  className="h-full w-full object-cover"
+                />
                 <span>Photo — {l.name}</span>
               </div>
               <h3 className="mt-4 font-display text-xl font-semibold">
+                <img
+                  src={l.image || "/images/pastor-nnaji.jpg"}
+                  alt={`Photo of ${l.name}`}
+                  className="h-12 w-12 rounded-full object-cover"
+                />
                 {l.name}
               </h3>
               <p className="text-sm font-semibold uppercase tracking-widest text-teal">
+                <img
+                  src={l.image || "/images/pastor-linus.jpg"}
+                  alt={`Photo of ${l.name}`}
+                  className="h-12 w-12 rounded-full object-cover"
+                />
                 {l.role}
               </p>
-              <p className="mt-2 text-sm text-muted">{l.body}</p>
+              <p className="mt-2 text-sm text-muted">
+                <img
+                  src={l.image || "/images/mistress-favour.jpg"}
+                  alt={`Photo of ${l.name}`}
+                  className="h-12 w-12 rounded-full object-cover"
+                />
+                {l.body}</p>
             </article>
           ))}
         </div>
