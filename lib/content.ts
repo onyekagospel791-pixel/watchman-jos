@@ -164,7 +164,7 @@ export const leaders = [
   {
     name: "Mistress Favour Agba",
     role: "Diocesan Choir Mistress",
-    image: "/images/mistress-favour.jpg",
+    image: "/images/favour-agba.jpg",
     body: "A talented and passionate music director whose zeal for music has been tested over time — leading the music department as diocesan leader with the spirit of leadership.",
   },
 ];

@@ -73,34 +73,18 @@ export default function About() {
             <article key={l.name}>
               <div className="photo aspect-[3/4] relative overflow-hidden">
                 <img
-                  src={l.image || "/images/pastor-amos-youngo.jpg"}
+                  src={l.image}
                   alt={`Photo — ${l.name}`}
                   className="h-full w-full object-cover"
                 />
-                <span>Photo — {l.name}</span>
               </div>
-              <h3 className="mt-4 font-display text-xl font-semibold">
-                <img
-                  src={l.image || "/images/pastor-nnaji.jpg"}
-                  alt={`Photo of ${l.name}`}
-                  className="h-12 w-12 rounded-full object-cover"
-                />
+              <h3 className="mt-4 font-display text-xl font-semibold">                 
                 {l.name}
               </h3>
               <p className="text-sm font-semibold uppercase tracking-widest text-teal">
-                <img
-                  src={l.image || "/images/pastor-linus.jpg"}
-                  alt={`Photo of ${l.name}`}
-                  className="h-12 w-12 rounded-full object-cover"
-                />
                 {l.role}
               </p>
-              <p className="mt-2 text-sm text-muted">
-                <img
-                  src={l.image || "/images/mistress-favour.jpg"}
-                  alt={`Photo of ${l.name}`}
-                  className="h-12 w-12 rounded-full object-cover"
-                />
+              <p className="mt-2 text-sm text-muted">               
                 {l.body}</p>
             </article>
           ))}
