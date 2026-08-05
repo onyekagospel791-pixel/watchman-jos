@@ -36,11 +36,6 @@ export default function Give() {
               </article>
             ))}
           </div>
-          <p className="mt-6 text-xs uppercase tracking-widest text-muted">
-            Account details above are placeholders — update{" "}
-            <code className="rounded-sm bg-ink/5 px-1.5 py-0.5">lib/content.ts</code>{" "}
-            with your real giving information.
-          </p>
         </div>
       </section>
 
