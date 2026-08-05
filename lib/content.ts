@@ -79,11 +79,11 @@ export const conferences = [
   },
   {
     title: "Hilltop Encounter",
-    body: "The flagship annual international youth conference of the WCCRM — a massive, highly structured convention for undergraduates, graduates, NYSC corps members, lecturers, and youth leaders globally.",
+    body: "The flagship annual international youth conference of the WCCRM — a massive, highly structured convention for Jambites, undergraduates, graduates, NYSC corps members, lecturers, and youth leaders globally.",
   },
   {
     title: "Teenagers Ministry",
-    body: "A dedicated track for adolescents, secondary-school students, and apprentices aged 13–19, focused on early spiritual preservation, academic focus, character development, and a shield against modern peer pressure.",
+    body: "A dedicated track for adolescents, secondary-school students, and apprentices aged 10-15, focused on early spiritual preservation, academic focus, character development, and a shield against modern peer pressure.",
   },
   {
     title: "Wind of Worship (WOW)",
@@ -244,11 +244,11 @@ export const giving = {
   methods: [
     {
       title: "Bank transfer",
-      body: "Account name: Watchman Catholic Charismatic Renewal Movement, Jos — Bank: [GTbank] — Account number: [0900966580].",
+      body: "Account name: Watchman Catholic Charismatic Renewal Movement, Jos — Bank: [Eco bank] — Account number: [23].",
     },
     {
       title: "Mobile money / transfer",
-      body: "Transfer via [add mobile money provider] to [add phone number], or use your banking app's quick-transfer to the account above.",
+      body: "Transfer via [GTbank] to [0900966580], or use your banking app's quick-transfer to the account above.",
     },
     {
       title: "Give in person",
@@ -257,10 +257,6 @@ export const giving = {
   ],
 };
 
-// ---------------------------------------------------------------------------
-// Sermons & media — placeholder message list. Replace titles/dates/links with
-// your actual uploads, or wire this up to the YouTube Data API.
-// ---------------------------------------------------------------------------
 export const sermons = [
   {
     title: "Watchmen on the Wall",
