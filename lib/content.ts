@@ -244,11 +244,11 @@ export const giving = {
   methods: [
     {
       title: "Bank transfer",
-      body: "Account name: Watchman Catholic Charismatic Renewal Movement, Jos — Bank: [Eco bank] — Account number: [23].",
+      body: "Account name: Watchman Catholic Charismatic Renewal Movement, Jos — Bank: [Eco-bank] — Account number: [2392035496].",
     },
     {
       title: "Mobile money / transfer",
-      body: "Transfer via [GTbank] to [0900966580], or use your banking app's quick-transfer to the account above.",
+      body: "Transfer via [GTB-bank] to [0900966580], or use your banking app's quick-transfer to the account above.",
     },
     {
       title: "Give in person",
