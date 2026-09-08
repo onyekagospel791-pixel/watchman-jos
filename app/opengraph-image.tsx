@@ -1,16 +1,16 @@
-import { ImageResponse } from "next/og";
-import { readFileSync } from "fs";
-import { join } from "path";
 import { site } from "@/lib/content";
+import { ImageResponse } from "next/og";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-const crest = readFileSync(join(process.cwd(), "public/images/crest.png")).toString(
-  "base64"
-);
+export default async function OpengraphImage() {
+  //fetch the image directly from your public URL at build time 
+  const imageURL = new URL("/images/crest.png", import.meta.url);
+  const imageResponse = await fetch(imageURL);
+  const imageBuffer = await imageResponse.arrayBuffer();
+  const crest = Buffer.from(imageBuffer).toString("base64");
 
-export default function OpengraphImage() {
   return new ImageResponse(
     (
       <div
