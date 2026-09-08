@@ -15,7 +15,7 @@ export const site = {
   youtube: "https://www.youtube.com/@WatchmanJos",
   serviceTimes: [
     { day: "Sunday Light", time: "8:00 AM" },
-    { day: "Tuesday Bible Study", time: "5:00 PM" },
+    { day: "Tuesday Bible Study", time: "6:00PM or 5:00 PM" },
     { day: "Thursday Charismatic Hour", time: "5:00 PM" },
   ],
 };
@@ -63,7 +63,7 @@ export const programs = [
   {
     month: "December",
     title: "December Retreat",
-    body: "The cornerstone annual convention of the WCCRM — a global spiritual wrap-up to reform, cleanse, and prepare believers for the incoming year. December 24–27, assemblies daily at 9:00 AM.",
+    body: "The cornerstone annual convention of the WCCRM — a global spiritual wrap-up to reform, cleanse, and prepare believers for the incoming year. December , assemblies daily at 8:00 AM.",
     cta: "Get involved",
   },
 ];
