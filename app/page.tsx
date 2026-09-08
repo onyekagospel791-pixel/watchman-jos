@@ -123,7 +123,7 @@ export default function Home() {
           <h2 className="mt-3 font-display text-4xl font-semibold">
             For every generation
           </h2>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-7">
             {conferences.map((c) => (
               <article
                 key={c.title}

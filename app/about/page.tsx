@@ -101,10 +101,10 @@ export default function About() {
           <div className="mt-10 grid gap-6 sm:grid-cols-3">
             {branches.map((b) => (
               <div
-                key={b}
+                key={b.name}
                 className="rounded-sm border-t-4 border-gold bg-parchment p-6"
               >
-                <h3 className="font-display text-xl font-semibold">{b}</h3>
+                <h3 className="font-display text-xl font-semibold">{b.name}</h3>
                 <Link
                   href="/get-involved#contact"
                   className="mt-3 inline-block text-sm font-medium text-teal underline-offset-4 hover:underline"
