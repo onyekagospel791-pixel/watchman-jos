@@ -15,7 +15,7 @@ export const site = {
   youtube: "https://www.youtube.com/@WatchmanJos",
   serviceTimes: [
     { day: "Sunday Light", time: "8:00 AM" },
-    { day: "Tuesday Bible Study", time: "5:00 PM" },
+    { day: "Tuesday Bible Study", time: "6:00PM or 5:00 PM" },
     { day: "Thursday Charismatic Hour", time: "5:00 PM" },
   ],
 };
@@ -63,7 +63,7 @@ export const programs = [
   {
     month: "December",
     title: "December Retreat",
-    body: "The cornerstone annual convention of the WCCRM — a global spiritual wrap-up to reform, cleanse, and prepare believers for the incoming year. December 24–27, assemblies daily at 9:00 AM.",
+    body: "The cornerstone annual convention of the WCCRM — a global spiritual wrap-up to reform, cleanse, and prepare believers for the incoming year. December , assemblies daily at 8:00 AM.",
     cta: "Get involved",
   },
 ];
@@ -144,13 +144,13 @@ export const history = [
 
 export const leaders = [
   {
-    name: "Pastor Amos Youngo",
+    name: "Pastor Amos Yongo",
     role: "Diocesan Pastor",
     image:"/images/pastor-amos-youngo.jpg",
     body: "A man of excellence and wisdom, he has led Watchman Jos with a hybrid hand — instilling excellence and perfection across the body, not only with compelling words but with love and care.",
   },
   {
-    name: "Pastor Nnaji",
+    name: "Pastor Nneji",
     role: "Parish Pastor",
     image: "/images/pastor-nnaji.jpg",
     body: "A passionate and inspiring leader whose words have shaped many youths — teaching a Christian life of not just spirituality but excellence in all areas of life.",
@@ -162,14 +162,42 @@ export const leaders = [
     body: "A passionate and inspiring leader whose words continue to shape young people, teaching spirituality and excellence in every area of life.",
   },
   {
-    name: "Mistress Favour Agba",
-    role: "Diocesan Choir Mistress",
+    name: "Master Marcel Ndubusi Anamah",
+    role: "Diocesan Choir Master",
     image: "/images/favour-agba.jpg",
     body: "A talented and passionate music director whose zeal for music has been tested over time — leading the music department as diocesan leader with the spirit of leadership.",
   },
 ];
 
-export const branches = ["Elim Parish", "Bukuru District", "Tudun Wada Parish"];
+export const branches = [
+  {
+    name: "Elim Parish",
+    location: "inside Watchman college, Rukuba road, Jos.",
+    phone: "08039721372",
+  },
+  {
+    name: "Bukuru District",
+    location: "opposite government secondary school angwan-mailafiya jos road",
+    phone: "08067596920",
+  },
+  { 
+    name: "Ecwa staff",
+    location: "by NCCF Secretariat, inside ecwa staff,jos.",
+    phone: "07030766655",
+  
+  },
+  { 
+    name: "watchman kuru parish",
+    location: "opposite May food Trade center kuru,jos.",
+    phone: "08135136224",
+  },
+  { 
+    name: "Watchmen catholic charismatic renewal movement",
+    location: "angwan jarmai keffi district nasarawa state",
+    phone: "08101057663",
+    
+  },
+];
 
 export const studyGroups = [
   {
@@ -260,42 +288,42 @@ export const giving = {
 export const sermons = [
   {
     title: "Watchmen on the Wall",
-    speaker: "Pastor Amos Youngo",
+    speaker: "Pastor Amos Yongo",
     date: "July 2026",
     scripture: "Ezek. 33:1–7",
     body: "A call to spiritual vigilance — understanding the assignment of the watchman and the price of silence.",
   },
   {
     title: "Who shall disannul it?",
-    speaker: "Pastor Amos Youngo",
+    speaker: "Pastor Amos Yongo",
     date: "June 2025",
     scripture: "Isaiah 14:24-27",
     body: "The irreversibility of God's purposes — a reminder that His plans cannot be annulled and overcoming territorial and enviromental limits.",
   },
   {
     title: "You must Kill the old man",
-    speaker: "Pastor Amos Youngo",
+    speaker: "Pastor Amos Yongo",
     date: "June 2026",
     scripture: "Romans 6:6–7",
     body: "The old man, the dangers of compromise, the mandate of Mortification and living in resurrection power  .",
   },
   {
     title: "Unto us a child is born",
-    speaker: "Pastor Amos Youngo",
+    speaker: "Pastor Amos Yongo",
     date: "May 2026",
     scripture: "Isaiah 9:6–7",
     body: "Raising a righteous generation requires intentionality.Parents cannot afford to leave their children's moral and spiritual education to the world or secular.",
   },
   {
     title: "Dangers of Prayerlessness",
-    speaker: "Pastor Amos Youngo",
+    speaker: "Pastor Amos Yongo",
     date: "April 2026",
     scripture: "Luke 18:1–8",
     body: "The dangers of prayerlessness and the importance of persistent prayer in the face of adversity.",
   },
   {
     title: "The Old Fashioned Way",
-    speaker: "Pastor Amos Youngo",
+    speaker: "Pastor Amos Yongo",
     date: "March 2026",
     scripture: "Jeremiah 6:16",
     body: "The old fashioned way of living — a call to return to the foundational principles of the faith.",
