@@ -197,7 +197,60 @@ export const branches = [
     phone: "08101057663",
     
   },
+  {
+    name:"Watchman Catholic Charismatic Renewal Movement keffi",
+    location:"watchman fellowship center Abuja bye pass GRA keffi, Nasarawa state",
+    phone:"08035921367",
+
+  },
+  {
+    name:"Watchman Catholic Charismatic Renewal Movement, Garaku Parish",
+    location:"Primary School, Akwanga Express, Garaku",
+    phone:"08065919831",
+  },
+   { 
+    name: "Watchman Fellowship Centre, Opposite Savannah Low-cost Houses",
+    location:  "Gyawana,Lamurde Local Government,Adamawa State.",
+    phone: "07038163305",
+    
+  },
+
+  {
+   name:"Watchman Catholic Charismatic Renewal Movement, Ngbalang Parish",
+   location:"Kwapukai along Gombe Road opposite NNPC Filling station, Numan parish",
+   phone:"08033760425/07033272389",
+  },
+  {
+    name:"WCCRM, ADAMAWA PARISH",
+    location:"Beside fire service station Numan",
+    phone:"08069711616",
+
+  },
+
+  {
+   name:"Watchman fellowship centre, mangu parish",
+   location:"Angwan sarki road",
+   phone:"08160983768",
+  },
+ {
+   name:"WCCRM BUKURU DISTRICT",
+   location:"Nesco Road, Beside Nesco Quaters Gate, kugiya",
+   phone:"08064563108",
+ },
+
+ {
+  name:"WCCRM",
+  location:"Sabon Gari, Mayo Belwa",
+  phone:"08037393508"
+ },
+ {
+   name:"WCCRM Ganye",
+   location:"Wukari Ward,Adamawa state",
+   phone:"08063792697 or (+234)07031589186",
+ },
+
 ];
+
 
 export const studyGroups = [
   {

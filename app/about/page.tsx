@@ -98,7 +98,7 @@ export default function About() {
           <h2 className="mt-3 max-w-2xl font-display text-4xl font-semibold">
             Many branches, one flexible worship &amp; engagement
           </h2>
-          <div className="mt-10 grid gap-6 sm:grid-cols-3">
+          <div className="mt-10 grid gap-6 sm:grid-cols-2">
             {branches.map((b) => (
               <div
                 key={b.name}
