@@ -248,7 +248,10 @@ export const branches = [
    location:"Wukari Ward,Adamawa state",
    phone:"08063792697 or (+234)07031589186",
  },
+ {
 
+
+ },
 ];
 
 
