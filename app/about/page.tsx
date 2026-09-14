@@ -108,7 +108,7 @@ export default function About() {
 
     <div className="mt-8">
       <Link
-        href={branchPdf}
+        href={branchPdf.href}
         target="_blank"
         rel="noopener noreferrer"
         className="mt-6 inline-block rounded-md bg-teal px-6 py-3 font-medium text-white"
