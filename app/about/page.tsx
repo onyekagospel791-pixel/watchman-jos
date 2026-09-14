@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { site, mission, history, leaders, branches } from "@/lib/content";
+import { site, mission, history, leaders, branchPdf } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "About",
@@ -91,31 +91,34 @@ export default function About() {
         </div>
       </section>
 
-      {/* ------------------------------------------------------ Branches */}
-      <section className="bg-teal-tint/50 py-20">
-        <div className="mx-auto max-w-site px-4">
-          <p className="eyebrow">Welcome to Watchman Church</p>
-          <h2 className="mt-3 max-w-2xl font-display text-4xl font-semibold">
-            Many branches, one flexible worship &amp; engagement
-          </h2>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2">
-            {branches.map((b) => (
-              <div
-                key={b.name}
-                className="rounded-sm border-t-4 border-gold bg-parchment p-6"
-              >
-                <h3 className="font-display text-xl font-semibold">{b.name}</h3>
-                <Link
-                  href="/get-involved#contact"
-                  className="mt-3 inline-block text-sm font-medium text-teal underline-offset-4 hover:underline"
-                >
-                  Learn more →
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* ------------------------------ Branches ------------------------------ */}
+<section className="bg-teal-tint/50 py-20">
+  <div className="mx-auto max-w-site px-4 text-center">
+
+    <p className="eyebrow">Watchman Church Branches</p>
+
+    <h2 className="mt-3 font-display text-4xl font-semibold">
+      Our Branches
+    </h2>
+
+    <p className="mx-auto mt-4 max-w-2xl text-gray-600">
+      View the complete list of Watchman Church branches, their locations
+     and contact information.
+    </p>
+
+    <div className="mt-8">
+      <Link
+        href={branchPdf}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-block rounded-md bg-teal px-6 py-3 font-medium text-white"
+      >
+        View All Branches →
+      </Link>
+    </div>
+  </div>
+</section>
     </>
   );
 }
+
