@@ -170,7 +170,7 @@ export const leaders = [
 ];
 
 export const branchPdf = {
-   href: "/pdfs/Watchman-branches.pdf"
+   href: "/pdf/Watchman-branches.pdf"
   
   };
 
