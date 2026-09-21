@@ -164,7 +164,7 @@ export const leaders = [
   {
     name: "Master Marcel Ndubusi Anamah",
     role: "Diocesan Choir Master",
-    image: "/images/favour-agba.jpg",
+    image: "/images/Marcel-Ndubusi.jpg",
     body: "A talented and passionate music director whose zeal for music has been tested over time — leading the music department as diocesan leader with the spirit of leadership.",
   },
 ];
