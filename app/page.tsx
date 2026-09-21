@@ -66,7 +66,7 @@ export default function Home() {
           <h2 className="mt-3 font-display text-4xl font-semibold">
             Word · Spirit · Power
           </h2>
-          <div className="mt-10 grid gap-8 md:grid-cols-6">
+          <div className="mt-10 grid gap-8 grid-cols-1">
             {pillars.map((p) => (
               <article key={p.title} className="border-t-4 border-gold pt-5">
                 <h3 className="font-display text-2xl font-semibold">
@@ -123,7 +123,7 @@ export default function Home() {
           <h2 className="mt-3 font-display text-4xl font-semibold">
             For every generation
           </h2>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-6">
+          <div className="mt-10 grid grid-cols-1 gap-6">
             {conferences.map((c) => (
               <article
                 key={c.title}
