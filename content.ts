@@ -144,12 +144,12 @@ export const history = [
 
 export const leaders = [
   {
-    name: "Pastor Amos Youngo",
+    name: "Pastor Amos Yongo",
     role: "Diocesan Pastor",
     body: "A man of excellence and wisdom, he has led Watchman Jos with a hybrid hand — instilling excellence and perfection across the body, not only with compelling words but with love and care.",
   },
   {
-    name: "Pastor Nnaji",
+    name: "Pastor Nneji",
     role: "Parish Pastor",
     body: "A passionate and inspiring leader whose words have shaped many youths — teaching a Christian life of not just spirituality but excellence in all areas of life.",
   },
@@ -260,14 +260,14 @@ export const giving = {
 export const sermons = [
   {
     title: "Watchmen on the Wall",
-    speaker: "Pastor Amos Youngo",
+    speaker: "Pastor Amos Yongo",
     date: "July 2026",
     scripture: "Ezek. 33:1–7",
     body: "A call to spiritual vigilance — understanding the assignment of the watchman and the price of silence.",
   },
   {
     title: "The Word Made Flesh",
-    speaker: "Pastor Nnaji",
+    speaker: "Pastor Nneji",
     date: "June 2026",
     scripture: "John 1:1–14",
     body: "Rediscovering Jesus as the ultimate expression of the Father — not just a messenger, but the message.",
@@ -281,7 +281,7 @@ export const sermons = [
   },
   {
     title: "Consecration for the Harvest",
-    speaker: "Pastor Amos Youngo",
+    speaker: "Pastor Amos Yongo",
     date: "May 2026",
     scripture: "Joel 2:15–17",
     body: "Preparing our hearts ahead of the September conferences — the discipline of setting ourselves apart.",

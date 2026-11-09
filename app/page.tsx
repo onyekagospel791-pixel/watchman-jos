@@ -24,7 +24,7 @@ export default function Home() {
             <p className="mt-6 max-w-xl text-lg text-muted">{site.intro}</p>
             <p className="mt-3 max-w-xl text-sm text-muted">
               The place where God has placed His{" "}
-              <strong className="text-gold">Word, Spirit &amp; Power</strong> â€”
+              <strong className="text-gold">Word, Spirit &amp; Power</strong> —
               now with a designated name:{" "}
               <em className="font-display">{site.designation}</em>.
             </p>
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="photo aspect-[4/5] w-full">
+          <div className="photo aspect-[4/5] w-full relative">
             <Image
               src="/images/sanctuary.jpg"
               alt="The Watchman Fellowship Center sanctuary, The House of His Glory"
@@ -64,7 +64,7 @@ export default function Home() {
         <div className="mx-auto max-w-site px-4">
           <p className="eyebrow">What awaits you</p>
           <h2 className="mt-3 font-display text-4xl font-semibold">
-            Word Â· Spirit Â· Power
+            Word · Spirit · Power
           </h2>
           <div className="mt-10 grid gap-8 md:grid-cols-3">
             {pillars.map((p) => (
@@ -87,11 +87,11 @@ export default function Home() {
         </h2>
         <p className="mt-3 max-w-2xl text-muted">
           Join us for a variety of events designed to enrich your faith and
-          strengthen our community â€” the same rhythm, every year.
+          strengthen our community — the same rhythm, every year.
         </p>
 
         <ol className="mt-12 space-y-0">
-          {programs.map((p, i) => (
+          {programs.map((p) => (
             <li
               key={p.title}
               className="grid gap-4 border-t border-ink/10 py-8 sm:grid-cols-[8rem_1fr_auto]"
@@ -109,7 +109,7 @@ export default function Home() {
                 href="/get-involved#contact"
                 className="self-start text-sm font-medium text-teal underline-offset-4 hover:underline"
               >
-                {p.cta} â†’
+                {p.cta} ?
               </Link>
             </li>
           ))}
@@ -172,7 +172,7 @@ export default function Home() {
               href="/sermons"
               className="mt-6 inline-block text-sm font-medium text-teal underline-offset-4 hover:underline"
             >
-              Watch messages â†’
+              Watch messages ?
             </Link>
           </div>
           <div className="rounded-sm border-t-4 border-gold bg-gold-soft/40 p-8">
@@ -188,7 +188,7 @@ export default function Home() {
               href="/give"
               className="mt-6 inline-block text-sm font-medium text-teal underline-offset-4 hover:underline"
             >
-              Ways to give â†’
+              Ways to give ?
             </Link>
           </div>
         </div>

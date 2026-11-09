@@ -1,8 +1,7 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { site, mission, history, leaders, branches } from "@/lib/content";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "About",
   description: mission.body,
 };

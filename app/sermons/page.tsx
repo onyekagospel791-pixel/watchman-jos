@@ -1,7 +1,6 @@
-import type { Metadata } from "next";
 import { site, sermons } from "@/lib/content";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Sermons & media",
   description:
     "Catch up on recent messages from Watchman Jos, or watch live and past services on our YouTube channel.",

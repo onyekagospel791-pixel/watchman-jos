@@ -6,17 +6,17 @@ export const site = {
   name: "Watchman Jos",
   fullName: "Watchman Catholic Charismatic Renewal Movement, Jos",
   designation: "The House of His Glory",
-  tagline: "A church empowered by the Word",
+  tagline: "The House of His Glory",
   intro:
-    "At Watchman Church, we invite you to experience the transformative power of God's Word and Spirit.",
-  scripture: "Ezek. 33:1–7 · Isa. 59:5–6",
+    "Watchman Jos, is a place where we strongly believe we strongly believe God has placed His spirit, word, and power.",
+  scripture: "Ezek. 33:1–7 · Isa. 49:5–6",
   address: "Watchman Fellowship Center, Busa Buji Road, Jos",
   email: "watchmanjos@gmail.com",
   youtube: "https://www.youtube.com/@WatchmanJos",
   serviceTimes: [
-    { day: "Sunday Light", time: "8:00 AM" },
-    { day: "Tuesday Bible Study", time: "5:00 PM" },
-    { day: "Thursday Charismatic Hour", time: "5:00 PM" },
+    { day: "Sunday Light Service", time: "8:00 AM" },
+    { day: "Tuesday Prophetic Declaration", time: "6:00 - 7:00 AM" },
+    { day: "Thursday Bible Study", time: "5:00 PM" },
   ],
 };
 
@@ -44,13 +44,13 @@ export const programs = [
   },
   {
     month: "Easter",
-    title: "Easter Program",
+    title: "Easter Retreat",
     body: "Held across branches globally, focusing on spiritual rejuvenation, divine cleansing, and transformative empowerment — centered on deep spiritual purification.",
     cta: "Join us",
   },
   {
     month: "June",
-    title: "June Yearly Program",
+    title: "June Divine Visitation ",
     body: "The mighty hand of God is upon us with signs and wonders. Our June programs drive a mix of intensive spiritual warfare, spiritual education, and professional youth capacity building.",
     cta: "Get involved",
   },
@@ -70,11 +70,13 @@ export const programs = [
 
 export const conferences = [
   {
-    title: "Children Program",
+    title: "Kids Program ",
+    age:"7-12",
     body: "Under the Watchman Youths & Children's Initiatives — early spiritual regeneration, sound moral development, and biblical academic principles to raise an impeccable generation. Nursery & beginners, intermediate class, and workers forum, with services on Sundays, Tuesdays, and Thursdays.",
   },
   {
-    title: "Youth: WCCCF & Watchman YAF",
+    title: "Youth week",
+    age: "16-30",
     body: "Campus Fellowship (WCCCF) for higher-institution students and the Young Adults Forum (YAF) for graduates and young professionals.",
   },
   {
@@ -82,7 +84,8 @@ export const conferences = [
     body: "The flagship annual international youth conference of the WCCRM — a massive, highly structured convention for Jambites, undergraduates, graduates, NYSC corps members, lecturers, and youth leaders globally.",
   },
   {
-    title: "Teenagers Ministry",
+    title: "Teenagers Camp",
+    age: "13-15",
     body: "A dedicated track for adolescents, secondary-school students, and apprentices aged 10-15, focused on early spiritual preservation, academic focus, character development, and a shield against modern peer pressure.",
   },
   {
@@ -250,16 +253,13 @@ export const giving = {
       title: "Mobile money / transfer",
       body: "Transfer via [GTB-bank] to [0900966580], or use your banking app's quick-transfer to the account above.",
     },
-    {
-      title: "Give in person",
-      body: "Bring your tithes and offering to any Sunday, Tuesday, or Thursday service — offering baskets are passed during worship.",
-    },
+    
   ],
 };
 
 export const sermons = [
   {
-    title: "Watchmen on the Wall",
+    title: "Watchman on the Wall",
     speaker: "Pastor Amos Youngo",
     date: "July 2026",
     scripture: "Ezek. 33:1–7",

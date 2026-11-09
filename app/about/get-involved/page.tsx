@@ -1,9 +1,8 @@
-import type { Metadata } from "next";
 import { site, studyGroups, volunteering } from "@/lib/content";
 import ContactForm from "@/components/ContactForm";
 import Image from "next/image";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Get involved",
   description:
     "Discover ways to make a difference — Bible study groups, Sunday worship, volunteering, and more at Watchman Jos.",
