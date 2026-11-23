@@ -6,7 +6,7 @@ export const site = {
   name: "Watchman Jos",
   fullName: "Watchman Catholic Charismatic Renewal Movement, Jos",
   designation: "The House of His Glory",
-  tagline: "A church empowered by the Word",
+  tagline: "The house of His Glory",
   intro:
     "Watchman Jos is the place where we strongly believe God has placed His Spirit, Word and Power.",
   scripture: "Isa. 49:5–6",
@@ -15,9 +15,9 @@ export const site = {
   youtube: "https://www.youtube.com/@WatchmanJos",
   spotify: "https://open.spotify.com/show/3KFhAO31G3Hzujw418umSU",
   serviceTimes: [
-    { day: "Sunday Light", time: "8:00 AM" },
-    { day: "Tuesday Bible Study", time: "5:00 PM" },
-    { day: "Thursday Charismatic Hour", time: "5:00 PM" },
+    { day: "Sunday Light service", time: "8:00 AM" },
+    { day: "Tuesday charismatic Hour", time: "5:00 PM" },
+    { day: "Thursday Bible Study", time: "5:00 PM" },
   ],
 };
 
@@ -52,13 +52,13 @@ export const programs = [
   },
   {
     month: "Easter",
-    title: "Easter Program",
+    title: "Easter Retreat",
     body: "Held across branches globally, focusing on spiritual rejuvenation, divine cleansing, and transformative empowerment — centered on deep spiritual purification.",
     cta: "Join us",
   },
   {
     month: "June",
-    title: "June Yearly Program",
+    title: "June Divine visitation",
     body: "The mighty hand of God is upon us with signs and wonders. Our June programs drive a mix of intensive spiritual warfare, spiritual education, and professional youth capacity building.",
     cta: "Get involved",
   },
@@ -79,18 +79,17 @@ export const programs = [
 export const conferences = [
   {
     title: "Children Program",
+    Age: "7-12years",
     body: "Under the Watchman Youths & Children's Initiatives — early spiritual regeneration, sound moral development, and biblical academic principles to raise an impeccable generation. Nursery & beginners, intermediate class, and workers forum, with services on Sundays, Tuesdays, and Thursdays.",
   },
   {
-    title: "Youth: WCCCF & Watchman YAF",
-    body: "Campus Fellowship (WCCCF) for higher-institution students and the Young Adults Forum (YAF) for graduates and young professionals.",
-  },
-  {
     title: "Hilltop Encounter",
+    Age:"13-15years",
     body: "The flagship annual international youth conference of the WCCRM — a massive, highly structured convention for undergraduates, graduates, NYSC corps members, lecturers, and youth leaders globally.",
   },
   {
     title: "Teenagers Ministry",
+    Age: "16-30years",
     body: "A dedicated track for adolescents, secondary-school students, and apprentices aged 13–19, focused on early spiritual preservation, academic focus, character development, and a shield against modern peer pressure.",
   },
   {
@@ -167,9 +166,9 @@ export const leaders = [
     body: "A passionate and inspiring leader whose words continue to shape young people, teaching spirituality and excellence in every area of life.",
   },
   {
-    name: "Mistress Favour Agba",
-    role: "Diocesan Choir Mistress",
-    image: "/images/favour-agba.jpg",
+    name: "Mr Marcel Anamah Ndubusi",
+    role: "Diocesan Choir Master",
+    image: "/images/marcel Ndubusi.jpeg",
     body: "A talented and passionate music director whose zeal for music has been tested over time — leading the music department as diocesan leader with the spirit of leadership.",
   },
 ];
