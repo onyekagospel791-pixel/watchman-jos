@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { site, giving } from "@/lib/content";
 
 export const metadata = {
@@ -20,44 +19,27 @@ export default function Give() {
 
       <div className="wall wall--teal" />
 
-      {/* ------------------------------------------------------------ Methods */}
+      {/* ------------------------------------------------------------ Account */}
       <section className="bg-teal-tint/50 py-20">
         <div className="mx-auto max-w-site px-4">
-          <p className="eyebrow">Ways to give</p>
+          <p className="eyebrow">Account details</p>
           <h2 className="mt-3 font-display text-4xl font-semibold">
-            Choose what works for you
+            Give by bank transfer
           </h2>
-          <div className="mt-10 grid gap-8 md:grid-cols-3">
-            {giving.methods.map((m) => (
-              <article key={m.title} className="rounded-sm bg-parchment p-6">
-                <h3 className="font-display text-xl font-semibold">{m.title}</h3>
-                <p className="mt-3 text-muted">{m.body}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* -------------------------------------------------------- Designations */}
-      <section className="bg-ink py-20 text-parchment">
-        <div className="mx-auto max-w-site px-4">
-          <p className="eyebrow !text-gold">Where your giving goes</p>
-          <h2 className="mt-3 font-display text-4xl font-semibold">
-            Designate your gift
-          </h2>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {giving.designations.map((d) => (
-              <article
-                key={d.title}
-                className="rounded-sm border border-parchment/15 p-6"
-              >
-                <h3 className="font-display text-xl font-semibold text-gold">
-                  {d.title}
-                </h3>
-                <p className="mt-3 text-sm text-parchment/80">{d.body}</p>
-              </article>
-            ))}
-          </div>
+          <dl className="mt-10 max-w-xl space-y-4 rounded-sm bg-parchment p-6">
+            <div>
+              <dt className="text-xs uppercase tracking-widest text-muted">Account name</dt>
+              <dd className="font-display text-xl font-semibold">{giving.account.name}</dd>
+            </div>
+            <div>
+              <dt className="text-xs uppercase tracking-widest text-muted">Bank</dt>
+              <dd className="font-display text-xl font-semibold">{giving.account.bank}</dd>
+            </div>
+            <div>
+              <dt className="text-xs uppercase tracking-widest text-muted">Account number</dt>
+              <dd className="font-display text-xl font-semibold">{giving.account.number}</dd>
+            </div>
+          </dl>
         </div>
       </section>
 
@@ -77,12 +59,12 @@ export default function Give() {
           </a>{" "}
           or speak with a leader after any service.
         </p>
-        <Link
+        <a
           href="/get-involved#contact"
           className="mt-8 inline-block rounded-sm bg-teal px-8 py-3 font-medium text-parchment transition-colors hover:bg-teal-deep"
         >
           Contact us
-        </Link>
+        </a>
       </section>
     </>
   );

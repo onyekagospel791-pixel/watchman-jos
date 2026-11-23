@@ -67,7 +67,7 @@ export default function Header() {
             href="/get-involved#contact"
             className="rounded-sm bg-teal px-4 py-2 text-parchment transition-colors hover:bg-teal-deep"
           >
-            Plan a visit
+            Join us this Sunday
           </Link>
         </nav>
 
@@ -119,7 +119,7 @@ export default function Header() {
             className="mt-2 inline-block rounded-sm bg-teal px-4 py-2 text-parchment"
             onClick={() => setOpen(false)}
           >
-            Plan a visit
+            Join us this Sunday
           </Link>
         </nav>
       )}

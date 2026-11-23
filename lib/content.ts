@@ -6,25 +6,29 @@ export const site = {
   name: "Watchman Jos",
   fullName: "Watchman Catholic Charismatic Renewal Movement, Jos",
   designation: "The House of His Glory",
-  tagline: "The House of His Glory",
+  tagline: "A church empowered by the Word",
   intro:
-    "Watchman Jos, is a place where we strongly believe we strongly believe God has placed His spirit, word, and power.",
-  scripture: "Ezek. 33:1–7 · Isa. 49:5–6",
+    "Watchman Jos is the place where we strongly believe God has placed His Spirit, Word and Power.",
+  scripture: "Isa. 49:5–6",
   address: "Watchman Fellowship Center, Busa Buji Road, Jos",
   email: "watchmanjos@gmail.com",
   youtube: "https://www.youtube.com/@WatchmanJos",
+  spotify: "https://open.spotify.com/show/3KFhAO31G3Hzujw418umSU",
   serviceTimes: [
     { day: "Sunday Light Service", time: "8:00 AM" },
-    { day: "Tuesday Prophetic Declaration", time: "6:00 - 7:00 AM" },
+    { day: "Tuesday Prophetic Declaration", time: "6:00–7:00 AM" },
     { day: "Thursday Bible Study", time: "5:00 PM" },
   ],
 };
 
+// Social media & podcast. Add more entries here (Facebook, Instagram, TikTok,
+// X, etc.) and they appear in the footer automatically.
+export const socials = [
+  { label: "YouTube", href: site.youtube },
+  { label: "Spotify Podcast", href: site.spotify },
+];
+
 export const pillars = [
-  {
-    title: "Empowered Worship",
-    body: "A Spirit-filled atmosphere where the sounds are inspired by Yahweh Himself — a charged atmosphere where sickness flees and miracles occur for those who key in and believe.",
-  },
   {
     title: "Transformative Teaching",
     body: "Our sermons are grounded in scripture, designed to inspire and equip you for a life of purpose and service.",
@@ -32,6 +36,10 @@ export const pillars = [
   {
     title: "Prophetic Declaration",
     body: "A time of the demonstration of the power of God, where the light of God's Word shines into our lives, taking away every darkness.",
+  },
+  {
+    title: "Empowered Worship",
+    body: "A Spirit-filled atmosphere where the sounds are inspired by Yahweh Himself — a charged atmosphere where sickness flees and miracles occur for those who key in and believe.",
   },
 ];
 
@@ -44,13 +52,13 @@ export const programs = [
   },
   {
     month: "Easter",
-    title: "Easter Retreat",
+    title: "Easter Program",
     body: "Held across branches globally, focusing on spiritual rejuvenation, divine cleansing, and transformative empowerment — centered on deep spiritual purification.",
     cta: "Join us",
   },
   {
     month: "June",
-    title: "June Divine Visitation ",
+    title: "June Yearly Program",
     body: "The mighty hand of God is upon us with signs and wonders. Our June programs drive a mix of intensive spiritual warfare, spiritual education, and professional youth capacity building.",
     cta: "Get involved",
   },
@@ -70,23 +78,20 @@ export const programs = [
 
 export const conferences = [
   {
-    title: "Kids Program ",
-    age:"7-12",
+    title: "Children Program",
     body: "Under the Watchman Youths & Children's Initiatives — early spiritual regeneration, sound moral development, and biblical academic principles to raise an impeccable generation. Nursery & beginners, intermediate class, and workers forum, with services on Sundays, Tuesdays, and Thursdays.",
   },
   {
-    title: "Youth week",
-    age: "16-30",
+    title: "Youth: WCCCF & Watchman YAF",
     body: "Campus Fellowship (WCCCF) for higher-institution students and the Young Adults Forum (YAF) for graduates and young professionals.",
   },
   {
     title: "Hilltop Encounter",
-    body: "The flagship annual international youth conference of the WCCRM — a massive, highly structured convention for Jambites, undergraduates, graduates, NYSC corps members, lecturers, and youth leaders globally.",
+    body: "The flagship annual international youth conference of the WCCRM — a massive, highly structured convention for undergraduates, graduates, NYSC corps members, lecturers, and youth leaders globally.",
   },
   {
-    title: "Teenagers Camp",
-    age: "13-15",
-    body: "A dedicated track for adolescents, secondary-school students, and apprentices aged 10-15, focused on early spiritual preservation, academic focus, character development, and a shield against modern peer pressure.",
+    title: "Teenagers Ministry",
+    body: "A dedicated track for adolescents, secondary-school students, and apprentices aged 13–19, focused on early spiritual preservation, academic focus, character development, and a shield against modern peer pressure.",
   },
   {
     title: "Wind of Worship (WOW)",
@@ -141,7 +146,7 @@ export const history = [
   {
     year: "Today",
     title: "A bright future",
-    body: "Watchman Church remains dedicated to fulfilling our mission of universal Christianity and the restitution of saints — and we invite everyone to join us on this incredible journey of faith and service.",
+    body: "Watchman Jos remains dedicated to fulfilling our mission of universal Christianity and the restitution of saints — and we invite everyone to join us on this incredible journey of faith and service.",
   },
 ];
 
@@ -149,25 +154,21 @@ export const leaders = [
   {
     name: "Pastor Amos Youngo",
     role: "Diocesan Pastor",
-    image:"/images/pastor-amos-youngo.jpg",
     body: "A man of excellence and wisdom, he has led Watchman Jos with a hybrid hand — instilling excellence and perfection across the body, not only with compelling words but with love and care.",
   },
   {
     name: "Pastor Nnaji",
     role: "Parish Pastor",
-    image: "/images/pastor-nnaji.jpg",
     body: "A passionate and inspiring leader whose words have shaped many youths — teaching a Christian life of not just spirituality but excellence in all areas of life.",
   },
   {
     name: "Pastor Linus Orduh",
     role: "Youth Pastor",
-    image: "/images/pastor-linus.jpg",
     body: "A passionate and inspiring leader whose words continue to shape young people, teaching spirituality and excellence in every area of life.",
   },
   {
     name: "Mistress Favour Agba",
     role: "Diocesan Choir Mistress",
-    image: "/images/favour-agba.jpg",
     body: "A talented and passionate music director whose zeal for music has been tested over time — leading the music department as diocesan leader with the spirit of leadership.",
   },
 ];
@@ -207,11 +208,11 @@ export const volunteering = [
 export const testimonials = [
   {
     title: "A Transformative Journey",
-    body: "Joining Watchman Church has changed my life in profound ways. The community support and spiritual guidance have helped me grow closer to God and find purpose in my daily life.",
+    body: "Joining Watchman Jos has changed my life in profound ways. The community support and spiritual guidance have helped me grow closer to God and find purpose in my daily life.",
   },
   {
     title: "A Welcoming Family",
-    body: "I have never felt more welcomed than I do at Watchman Church. The warmth of the congregation and the love shared here have made me feel like I truly belong.",
+    body: "I have never felt more welcomed than I do at Watchman Jos. The warmth of the congregation and the love shared here have made me feel like I truly belong.",
   },
   {
     title: "Finding Hope",
@@ -220,84 +221,71 @@ export const testimonials = [
 ];
 
 // ---------------------------------------------------------------------------
-// Giving — placeholder account details. Replace with the real bank, mobile
-// money, and online-giving information before publishing.
+// Giving — bank account only. Replace the bracketed placeholders with the real
+// bank name and account number before publishing.
 // ---------------------------------------------------------------------------
 export const giving = {
   heading: "Give cheerfully, sow generously",
-  body: "Your tithes, offerings, and seeds sustain the work of the ministry — from Sunday worship to outreach, missions, and the annual programs that reach thousands across our branches. “Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.” — 2 Corinthians 9:7",
-  designations: [
-    {
-      title: "Tithes & Offering",
-      body: "Your regular tithe and Sunday offering, given in worship as an act of faith and obedience.",
-    },
-    {
-      title: "Building Project",
-      body: "Seed toward the ongoing expansion of the Watchman Fellowship Center and branch facilities across Jos.",
-    },
-    {
-      title: "Missions & Outreach",
-      body: "Support evangelism, community outreach, and the branches carrying the gospel across Africa and beyond.",
-    },
-    {
-      title: "Benevolence",
-      body: "Give toward the welfare fund that supports members and families facing hardship.",
-    },
-  ],
-  methods: [
-    {
-      title: "Bank transfer",
-      body: "Account name: Watchman Catholic Charismatic Renewal Movement, Jos — Bank: [Eco-bank] — Account number: [2392035496].",
-    },
-    {
-      title: "Mobile money / transfer",
-      body: "Transfer via [GTB-bank] to [0900966580], or use your banking app's quick-transfer to the account above.",
-    },
-    
-  ],
+  body: "Your tithes, offerings, and seeds sustain the work of the ministry. “Each of you should give what you have decided in your heart to give, not reluctantly or under compulsion, for God loves a cheerful giver.” — 2 Corinthians 9:7",
+  account: {
+    name: "Watchman Catholic Charismatic Renewal Movement, Jos",
+    bank: "[add bank name]",
+    number: "[add account number]",
+  },
 };
 
+// ---------------------------------------------------------------------------
+// Sermons & media — each message has a `url`. Paste the direct YouTube video link
+// for each (https://www.youtube.com/watch?v=...). Until then it falls back to
+// the channel.
+// ---------------------------------------------------------------------------
 export const sermons = [
   {
-    title: "Watchman on the Wall",
+    title: "Watchmen on the Wall",
     speaker: "Pastor Amos Youngo",
     date: "July 2026",
     scripture: "Ezek. 33:1–7",
+    url: site.youtube, // TODO: replace with this message's direct video link
     body: "A call to spiritual vigilance — understanding the assignment of the watchman and the price of silence.",
   },
   {
-    title: "Who shall disannul it?",
-    speaker: "Pastor Amos Youngo",
-    date: "June 2025",
-    scripture: "Isaiah 14:24-27",
-    body: "The irreversibility of God's purposes — a reminder that His plans cannot be annulled and overcoming territorial and enviromental limits.",
-  },
-  {
-    title: "You must Kill the old man",
-    speaker: "Pastor Amos Youngo",
+    title: "The Word Made Flesh",
+    speaker: "Pastor Nnaji",
     date: "June 2026",
-    scripture: "Romans 6:6–7",
-    body: "The old man, the dangers of compromise, the mandate of Mortification and living in resurrection power  .",
+    scripture: "John 1:1–14",
+    url: site.youtube, // TODO: replace with this message's direct video link
+    body: "Rediscovering Jesus as the ultimate expression of the Father — not just a messenger, but the message.",
   },
   {
-    title: "Unto us a child is born",
+    title: "Fire on the Altar",
+    speaker: "Pastor Linus Orduh",
+    date: "June 2026",
+    scripture: "Leviticus 6:13",
+    url: site.youtube, // TODO: replace with this message's direct video link
+    body: "A charge to the youth: keeping the flame of a first love alive in a distracted generation.",
+  },
+  {
+    title: "Consecration for the Harvest",
     speaker: "Pastor Amos Youngo",
     date: "May 2026",
-    scripture: "Isaiah 9:6–7",
-    body: "Raising a righteous generation requires intentionality.Parents cannot afford to leave their children's moral and spiritual education to the world or secular.",
+    scripture: "Joel 2:15–17",
+    url: site.youtube, // TODO: replace with this message's direct video link
+    body: "Preparing our hearts ahead of the September conferences — the discipline of setting ourselves apart.",
   },
   {
-    title: "Dangers of Prayerlessness",
-    speaker: "Pastor Amos Youngo",
+    title: "Restitution & Restoration",
+    speaker: "Pastor Nnaji",
     date: "April 2026",
-    scripture: "Luke 18:1–8",
-    body: "The dangers of prayerlessness and the importance of persistent prayer in the face of adversity.",
+    scripture: "Luke 19:1–9",
+    url: site.youtube, // TODO: replace with this message's direct video link
+    body: "What it means to make things right — the Zacchaeus model of restitution as fruit of true repentance.",
   },
   {
-    title: "The Old Fashioned Way",
-    speaker: "Pastor Amos Youngo",
+    title: "Praying the Prophetic",
+    speaker: "Mistress Favour Agba",
     date: "March 2026",
-    scripture: "Jeremiah 6:16",
-    body: "The old fashioned way of living — a call to return to the foundational principles of the faith.",
+    scripture: "Isa. 62:6–7",
+    url: site.youtube, // TODO: replace with this message's direct video link
+    body: "On the ministry of the watchmen who give the Lord no rest — prophetic declaration in worship and prayer.",
   },
 ];

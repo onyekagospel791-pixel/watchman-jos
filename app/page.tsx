@@ -12,28 +12,23 @@ import {
 export default function Home() {
   return (
     <>
+     
       {/* ------------------------------------------------------------ Hero */}
       <section className="mx-auto max-w-site px-4 pb-20 pt-16 sm:pt-24">
         <div className="grid items-center gap-12 lg:grid-cols-[1.2fr_1fr]">
           <div className="rise">
             <p className="eyebrow">{site.scripture}</p>
             <h1 className="mt-4 font-display text-5xl font-semibold leading-[1.05] sm:text-7xl">
-              A church empowered by{" "}
-              <span className="italic text-teal">the Word</span>
+              The House of{" "}
+              <span className="italic text-teal">His Glory</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-muted">{site.intro}</p>
-            <p className="mt-3 max-w-xl text-sm text-muted">
-              The place where God has placed His{" "}
-              <strong className="text-gold">Word, Spirit &amp; Power</strong> —
-              now with a designated name:{" "}
-              <em className="font-display">{site.designation}</em>.
-            </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href="/get-involved#contact"
                 className="rounded-sm bg-teal px-6 py-3 font-medium text-parchment transition-colors hover:bg-teal-deep"
               >
-                Plan a visit
+                Join us this Sunday
               </Link>
               <Link
                 href="/about"
@@ -44,7 +39,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="photo aspect-[4/5] w-full relative">
+          <div className="photo aspect-[4/5] w-full">
             <Image
               src="/images/sanctuary.jpg"
               alt="The Watchman Fellowship Center sanctuary, The House of His Glory"
@@ -64,7 +59,7 @@ export default function Home() {
         <div className="mx-auto max-w-site px-4">
           <p className="eyebrow">What awaits you</p>
           <h2 className="mt-3 font-display text-4xl font-semibold">
-            Word · Spirit · Power
+            Word Â· Spirit Â· Power
           </h2>
           <div className="mt-10 grid gap-8 md:grid-cols-3">
             {pillars.map((p) => (
@@ -87,11 +82,11 @@ export default function Home() {
         </h2>
         <p className="mt-3 max-w-2xl text-muted">
           Join us for a variety of events designed to enrich your faith and
-          strengthen our community — the same rhythm, every year.
+          strengthen our community â€” the same rhythm, every year.
         </p>
 
         <ol className="mt-12 space-y-0">
-          {programs.map((p) => (
+          {programs.map((p, i) => (
             <li
               key={p.title}
               className="grid gap-4 border-t border-ink/10 py-8 sm:grid-cols-[8rem_1fr_auto]"
@@ -109,7 +104,7 @@ export default function Home() {
                 href="/get-involved#contact"
                 className="self-start text-sm font-medium text-teal underline-offset-4 hover:underline"
               >
-                {p.cta} ?
+                {p.cta} â†’
               </Link>
             </li>
           ))}
@@ -172,7 +167,7 @@ export default function Home() {
               href="/sermons"
               className="mt-6 inline-block text-sm font-medium text-teal underline-offset-4 hover:underline"
             >
-              Watch messages ?
+              Watch messages â†’
             </Link>
           </div>
           <div className="rounded-sm border-t-4 border-gold bg-gold-soft/40 p-8">
@@ -188,7 +183,7 @@ export default function Home() {
               href="/give"
               className="mt-6 inline-block text-sm font-medium text-teal underline-offset-4 hover:underline"
             >
-              Ways to give ?
+              Ways to give â†’
             </Link>
           </div>
         </div>

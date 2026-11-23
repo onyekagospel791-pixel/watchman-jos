@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { site, studyGroups, volunteering } from "@/lib/content";
 import ContactForm from "@/components/ContactForm";
 
@@ -49,12 +48,10 @@ export default function GetInvolved() {
       <section className="mx-auto max-w-site px-4 py-20">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="photo aspect-[4/3]">
-            <Image
-              src="/images/pastor-amos-youngo.jpg"
-              alt="Pastor Amos Youngo preaching during a Sunday worship service at Watchman Jos"
-              fill
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              className="object-cover"
+            <img
+              src="/images/sunday-service.jpg"
+              alt="Preaching during a Sunday worship service at Watchman Jos"
+              className="h-full w-full object-cover"
             />
           </div>
           <div>
@@ -125,7 +122,7 @@ export default function GetInvolved() {
       <section id="contact" className="mx-auto max-w-site px-4 py-20">
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
-            <p className="eyebrow">Get in touch with Watchman Church</p>
+            <p className="eyebrow">Get in touch with Watchman Jos</p>
             <h2 className="mt-3 font-display text-4xl font-semibold">
               We are here to connect and support you
             </h2>

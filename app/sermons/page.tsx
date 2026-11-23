@@ -50,7 +50,7 @@ export default function Sermons() {
               <p className="mt-1 text-sm font-medium text-muted">{s.speaker}</p>
               <p className="mt-3 text-muted">{s.body}</p>
               <a
-                href={site.youtube}
+                href={s.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-block text-sm font-medium text-teal underline-offset-4 hover:underline"
@@ -60,11 +60,6 @@ export default function Sermons() {
             </article>
           ))}
         </div>
-        <p className="mt-10 text-xs uppercase tracking-widest text-muted">
-          Sample listing — replace with your actual uploads in{" "}
-          <code className="rounded-sm bg-ink/5 px-1.5 py-0.5">lib/content.ts</code>,
-          or wire this page up to the YouTube Data API.
-        </p>
       </section>
 
       {/* ------------------------------------------------------------- Subscribe */}

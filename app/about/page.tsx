@@ -1,5 +1,12 @@
-import Link from "next/link";
 import { site, mission, history, leaders, branches } from "@/lib/content";
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [element: string]: any;
+    }
+  }
+}
 
 export const metadata = {
   title: "About",
@@ -65,26 +72,21 @@ export default function About() {
       <section id="leadership" className="mx-auto max-w-site px-4 py-20">
         <p className="eyebrow">Our leadership</p>
         <h2 className="mt-3 font-display text-4xl font-semibold">
-          Meet the heart of Watchman Church
+          Meet the heart of Watchman Jos
         </h2>
         <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {leaders.map((l) => (
             <article key={l.name}>
-              <div className="photo aspect-[3/4] relative overflow-hidden">
-                <img
-                  src={l.image}
-                  alt={`Photo — ${l.name}`}
-                  className="h-full w-full object-cover"
-                />
+              <div className="photo aspect-[3/4]">
+                <span>Photo — {l.name}</span>
               </div>
-              <h3 className="mt-4 font-display text-xl font-semibold">                 
+              <h3 className="mt-4 font-display text-xl font-semibold">
                 {l.name}
               </h3>
               <p className="text-sm font-semibold uppercase tracking-widest text-teal">
                 {l.role}
               </p>
-              <p className="mt-2 text-sm text-muted">               
-                {l.body}</p>
+              <p className="mt-2 text-sm text-muted">{l.body}</p>
             </article>
           ))}
         </div>
@@ -93,7 +95,7 @@ export default function About() {
       {/* ------------------------------------------------------ Branches */}
       <section className="bg-teal-tint/50 py-20">
         <div className="mx-auto max-w-site px-4">
-          <p className="eyebrow">Welcome to Watchman Church</p>
+          <p className="eyebrow">Welcome to Watchman Jos</p>
           <h2 className="mt-3 max-w-2xl font-display text-4xl font-semibold">
             Many branches, one flexible worship &amp; engagement
           </h2>
@@ -104,12 +106,12 @@ export default function About() {
                 className="rounded-sm border-t-4 border-gold bg-parchment p-6"
               >
                 <h3 className="font-display text-xl font-semibold">{b}</h3>
-                <Link
+                <a
                   href="/get-involved#contact"
                   className="mt-3 inline-block text-sm font-medium text-teal underline-offset-4 hover:underline"
                 >
                   Learn more →
-                </Link>
+                </a>
               </div>
             ))}
           </div>

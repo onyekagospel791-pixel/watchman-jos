@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { site } from "@/lib/content";
+import { site, socials } from "@/lib/content";
 import FooterContactForm from "@/components/FooterContactForm";
 
 export default function Footer() {
@@ -28,12 +28,21 @@ export default function Footer() {
               </li>
             ))}
           </ul>
-          <a
-            href={site.youtube}
-            className="mt-4 inline-block text-sm text-gold underline-offset-4 hover:underline"
-          >
-            Watch on YouTube
-          </a>
+          <p className="eyebrow !text-gold mt-6">Follow &amp; listen</p>
+          <ul className="mt-3 space-y-1 text-sm">
+            {socials.map((x) => (
+              <li key={x.label}>
+                <a
+                  href={x.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gold underline-offset-4 hover:underline"
+                >
+                  {x.label}
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
 
         <div>
