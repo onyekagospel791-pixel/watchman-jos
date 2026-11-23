@@ -15,9 +15,9 @@ export const site = {
   youtube: "https://www.youtube.com/@WatchmanJos",
   spotify: "https://open.spotify.com/show/3KFhAO31G3Hzujw418umSU",
   serviceTimes: [
-    { day: "Sunday Light Service", time: "8:00 AM" },
-    { day: "Tuesday Prophetic Declaration", time: "6:00–7:00 AM" },
-    { day: "Thursday Bible Study", time: "5:00 PM" },
+    { day: "Sunday Light", time: "8:00 AM" },
+    { day: "Tuesday Bible Study", time: "5:00 PM" },
+    { day: "Thursday Charismatic Hour", time: "5:00 PM" },
   ],
 };
 
@@ -71,7 +71,7 @@ export const programs = [
   {
     month: "December",
     title: "December Retreat",
-    body: "The cornerstone annual convention of the WCCRM — a global spiritual wrap-up to reform, cleanse, and prepare believers for the incoming year. December 24–27, assemblies daily at 9:00 AM.",
+    body: "The cornerstone annual convention of the WCCRM — a global spiritual wrap-up to reform, cleanse, and prepare believers for the incoming year. December , assemblies daily at 8:00 AM.",
     cta: "Get involved",
   },
 ];
@@ -152,12 +152,12 @@ export const history = [
 
 export const leaders = [
   {
-    name: "Pastor Amos Youngo",
+    name: "Pastor Amos Yongo",
     role: "Diocesan Pastor",
     body: "A man of excellence and wisdom, he has led Watchman Jos with a hybrid hand — instilling excellence and perfection across the body, not only with compelling words but with love and care.",
   },
   {
-    name: "Pastor Nnaji",
+    name: "Pastor Nneji",
     role: "Parish Pastor",
     body: "A passionate and inspiring leader whose words have shaped many youths — teaching a Christian life of not just spirituality but excellence in all areas of life.",
   },
@@ -169,11 +169,40 @@ export const leaders = [
   {
     name: "Mistress Favour Agba",
     role: "Diocesan Choir Mistress",
+    image: "/images/favour-agba.jpg",
     body: "A talented and passionate music director whose zeal for music has been tested over time — leading the music department as diocesan leader with the spirit of leadership.",
   },
 ];
 
-export const branches = ["Elim Parish", "Bukuru District", "Tudun Wada Parish"];
+export const branches = [
+  {
+    name: "Elim Parish",
+    location: "inside Watchman college, Rukuba road, Jos.",
+    phone: "08039721372",
+  },
+  {
+    name: "Bukuru District",
+    location: "opposite government secondary school angwan-mailafiya jos road",
+    phone: "08067596920",
+  },
+  { 
+    name: "Ecwa staff",
+    location: "by NCCF Secretariat, inside ecwa staff,jos.",
+    phone: "07030766655",
+  
+  },
+  { 
+    name: "watchman kuru parish",
+    location: "opposite May food Trade center kuru,jos.",
+    phone: "08135136224",
+  },
+  { 
+    name: "Watchmen catholic charismatic renewal movement",
+    location: "angwan jarmai keffi district nasarawa state",
+    phone: "08101057663",
+    
+  },
+];
 
 export const studyGroups = [
   {
@@ -242,30 +271,29 @@ export const giving = {
 export const sermons = [
   {
     title: "Watchmen on the Wall",
-    speaker: "Pastor Amos Youngo",
+    speaker: "Pastor Amos Yongo",
     date: "July 2026",
     scripture: "Ezek. 33:1–7",
     url: site.youtube, // TODO: replace with this message's direct video link
     body: "A call to spiritual vigilance — understanding the assignment of the watchman and the price of silence.",
   },
   {
-    title: "The Word Made Flesh",
-    speaker: "Pastor Nnaji",
-    date: "June 2026",
-    scripture: "John 1:1–14",
-    url: site.youtube, // TODO: replace with this message's direct video link
-    body: "Rediscovering Jesus as the ultimate expression of the Father — not just a messenger, but the message.",
+    title: "Who shall disannul it?",
+    speaker: "Pastor Amos Youngo",
+    date: "June 2025",
+    scripture: "Isaiah 14:24-27",
+    body: "The irreversibility of God's purposes — a reminder that His plans cannot be annulled and overcoming territorial and enviromental limits.",
   },
   {
-    title: "Fire on the Altar",
-    speaker: "Pastor Linus Orduh",
+    title: "You must Kill the old man",
+    speaker: "Pastor Amos Youngo",
     date: "June 2026",
     scripture: "Leviticus 6:13",
     url: site.youtube, // TODO: replace with this message's direct video link
     body: "A charge to the youth: keeping the flame of a first love alive in a distracted generation.",
   },
   {
-    title: "Consecration for the Harvest",
+    title: "Unto us a child is born",
     speaker: "Pastor Amos Youngo",
     date: "May 2026",
     scripture: "Joel 2:15–17",
@@ -273,16 +301,16 @@ export const sermons = [
     body: "Preparing our hearts ahead of the September conferences — the discipline of setting ourselves apart.",
   },
   {
-    title: "Restitution & Restoration",
-    speaker: "Pastor Nnaji",
+    title: "Dangers of Prayerlessness",
+    speaker: "Pastor Amos Youngo",
     date: "April 2026",
     scripture: "Luke 19:1–9",
     url: site.youtube, // TODO: replace with this message's direct video link
     body: "What it means to make things right — the Zacchaeus model of restitution as fruit of true repentance.",
   },
   {
-    title: "Praying the Prophetic",
-    speaker: "Mistress Favour Agba",
+    title: "The Old Fashioned Way",
+    speaker: "Pastor Amos Youngo",
     date: "March 2026",
     scripture: "Isa. 62:6–7",
     url: site.youtube, // TODO: replace with this message's direct video link
