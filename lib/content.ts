@@ -83,15 +83,20 @@ export const conferences = [
     body: "Under the Watchman Youths & Children's Initiatives — early spiritual regeneration, sound moral development, and biblical academic principles to raise an impeccable generation. Nursery & beginners, intermediate class, and workers forum, with services on Sundays, Tuesdays, and Thursdays.",
   },
   {
-    title: "Hilltop Encounter",
+    title: "Teenagers Ministry",
     Age:"13-15years",
-    body: "The flagship annual international youth conference of the WCCRM — a massive, highly structured convention for undergraduates, graduates, NYSC corps members, lecturers, and youth leaders globally.",
+    body: "A dedicated track for adolescents, secondary-school students, and apprentices aged 13–19, focused on early spiritual preservation, academic focus.",
   },
   {
-    title: "Teenagers Ministry",
+    title: "Youth Ministry",
     Age: "16-30years",
-    body: "A dedicated track for adolescents, secondary-school students, and apprentices aged 13–19, focused on early spiritual preservation, academic focus, character development, and a shield against modern peer pressure.",
+    body: "Raising a generation of young people who are rooted in Christ, empowered by the Holy Spirit, and committed to kingdom service..",
   },
+  { 
+    title:"Hilltop Encounter",
+    body:"The flagship annual international youth conference of the WCCRM — a massive, highly structured convention for undergraduates, graduates, NYSC corps members, lecturers, and youth leaders globally.",
+  },
+  
   {
     title: "Wind of Worship (WOW)",
     body: "The flagship, premium musical concert series of the WCCRM, anchored right here in Jos — the region's signature live praise, orchestral, and deliverance experience.",
