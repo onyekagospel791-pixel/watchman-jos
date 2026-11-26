@@ -158,16 +158,19 @@ export const leaders = [
   {
     name: "Pastor Amos Yongo",
     role: "Diocesan Pastor",
+    image:"images/pastor amos yongo.jpg",
     body: "A man of excellence and wisdom, he has led Watchman Jos with a hybrid hand — instilling excellence and perfection across the body, not only with compelling words but with love and care.",
   },
   {
     name: "Pastor Nneji",
     role: "Parish Pastor",
+    image:"images/pastor nneji.jpeg",
     body: "A passionate and inspiring leader whose words have shaped many youths — teaching a Christian life of not just spirituality but excellence in all areas of life.",
   },
   {
     name: "Pastor Linus Orduh",
     role: "Youth Pastor",
+    image:"images/pastor linus.png",
     body: "A passionate and inspiring leader whose words continue to shape young people, teaching spirituality and excellence in every area of life.",
   },
   {

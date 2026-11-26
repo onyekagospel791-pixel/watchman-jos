@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root {
   --font-display: "Fraunces", Georgia, serif;
@@ -16,7 +14,11 @@ html {
 }
 
 body {
-  @apply bg-parchment text-ink font-body antialiased;
+  background-color: var(--parchment);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* ------------------------------------------------------------------ */
@@ -47,19 +49,36 @@ body {
 
 /* Eyebrow label */
 .eyebrow {
-  @apply text-xs font-semibold uppercase tracking-[0.22em] text-teal;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: var(--teal);
 }
 
 /* Photo placeholder blocks — swap for real photos in /public/images */
 .photo {
-  @apply relative flex items-end overflow-hidden rounded-sm bg-teal-tint;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  border-radius: 0.125rem;
+  background-color: #b9d6d3;
   background-image:
     radial-gradient(circle at 75% 20%, rgba(217, 162, 39, 0.25), transparent 55%),
     linear-gradient(160deg, #dcebe9 0%, #b9d6d3 60%, #8fbdb9 100%);
 }
 
 .photo > span {
-  @apply m-3 rounded-sm bg-ink/70 px-2 py-1 text-[11px] uppercase tracking-widest text-parchment;
+  margin: 0.75rem;
+  border-radius: 0.125rem;
+  background-color: rgba(25, 31, 30, 0.7);
+  padding: 0.25rem 0.5rem;
+  color: var(--parchment);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
