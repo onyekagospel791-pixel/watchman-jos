@@ -1,4 +1,5 @@
 import { site, mission, history, leaders, branches } from "@/lib/content";
+import Image from "next/image";
 
 declare global {
   namespace JSX {
@@ -77,9 +78,15 @@ export default function About() {
         <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {leaders.map((l) => (
             <article key={l.name}>
-              <div className="photo aspect-[3/4]">
-                <span>Photo — {l.name}</span>
-              </div>
+       <div className="photo aspect-[3/4]">
+  <Image
+    src={l.image}
+    alt={l.name}
+    fill
+    className="object-cover"
+    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+  />
+</div>
               <h3 className="mt-4 font-display text-xl font-semibold">
                 {l.name}
               </h3>
